@@ -26,5 +26,13 @@ namespace PPPPRRROYYECCCTTTOFinalMadAavid
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form SSolic = new Solicitar();
+            SSolic.FormClosed += (s, args) => this.Close();
+            SSolic.Show();
+        }
     }
 }

@@ -21,5 +21,13 @@ namespace PPPPRRROYYECCCTTTOFinalMadAavid
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form RRegis = new Registrar();
+            RRegis.FormClosed += (s, args) => this.Close();
+            RRegis.Show();
+        }
     }
 }
