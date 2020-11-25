@@ -1,0 +1,79 @@
+1. Pantalla principal
+	1.1. Cassanda o SQL
+1.1 Cassandra o SQL
+	1.11. Registrar (Pedirá tener las licencias de Gerente para ingresar)
+	1.111. Registrar Empresa
+	-Frecuencia de pago
+	-Razón social 
+	-Domicilio fiscal 
+	-Datos de contacto 
+	-Registro patronal 
+	-RFC 
+	-Fecha de inicio de operaciones
+	1.112. Registrar Empleado
+	-Nombre
+	-Apellido Paterno	
+	-Apellido Materno
+	-Contraseña (Enviará a otra pantalla)
+	-Departamento
+	-Puesto
+	-Nivel Salarial
+	-Banco
+	-No.Cuenta
+	-Email
+	-Telefonos
+	-Fecha de Ingreso
+	-Fecha de Nacimiento
+	-CURP
+	-Numero de Seguridad Social
+	-RFC
+	-Calle
+	-Numero
+	-Colonia
+	-Municipio
+	-CP
+	1.113 Registrar Departamento
+	-Sueldo Base
+	-Nombre Departamento
+	-Gerente (Debe solicitar el numero de empleado que será Gerente) 
+	-Empresa
+	1.114 RegistrarPuesto
+	-Nivel Salarial
+	-Nombre 
+	-Salario Diario
+	1.115 Registrar Nómina
+	-Numero de Empleado
+	-Retardos
+	-Faltas
+	-Prima vacacional
+	-Dias Trabajados	
+	-Bono Puntualidad
+	-Bono Asistencia
+	-Bono Productividad
+	-Cuota Sindical
+	-ISR (¿Se calcula?, vemos)
+	-Cuota IMSS
+	-Bono Gerente
+	1.12. Solicitar (Pedira tener las licencias de Empleado para ingresar)
+	1.121 Solicitar Recibo de Nómina
+	-Numero de Empleado
+	-Mes
+	-Quincena (Deshabilitado si pagan por Mes o Semana)
+	-Semana (Deshabilitado si pagan por quincena o mes)
+	1.122 Solicitar Vacaciones
+	-Numero de Empleado
+	-Periodo (Dos para seleccionar desde cuando hasta cuando)
+	1.123 Solicitar Permiso especial
+	-Numero de Empleado
+	-Fecha
+	1.13. Actualizar (Pedira tener las licencias de Gerente para ingresar)
+	1.131 Actualizar Puesto de Empleado
+	-Numero de Empleado
+	-Puesto
+	1.132 Actualizar Departamento de Empleado
+	-Numero de Empleado
+	-Departamento
+	1.14 Generar Reporte
+	-Numero de Empleado
+	-Contraseña
+	

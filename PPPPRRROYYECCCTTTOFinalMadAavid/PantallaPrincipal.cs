@@ -21,5 +21,37 @@ namespace PPPPRRROYYECCCTTTOFinalMadAavid
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form registrar = new Registrar();
+            registrar.FormClosed += (s, args) => this.Close();
+            registrar.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form solicitar = new Solicitar();
+            solicitar.FormClosed += (s, args) => this.Close();
+            solicitar.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form actualizar = new Actualizar();
+            actualizar.FormClosed += (s, args) => this.Close();
+            actualizar.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form genReport = new GenerarReporte();
+            genReport.FormClosed += (s, args) => this.Close();
+            genReport.Show();
+        }
     }
 }

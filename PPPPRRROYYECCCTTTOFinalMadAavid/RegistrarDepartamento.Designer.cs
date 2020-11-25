@@ -140,7 +140,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Name = "RegistrarDepartamento";
-            this.Text = "RegistrarDepartamento";
+            this.Text = "Registrar Departamento";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -21,5 +21,14 @@ namespace PPPPRRROYYECCCTTTOFinalMadAavid
         {
 
         }
+
+        private void BtnIngresar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form menu = new PantallaPrincipal();
+            menu.FormClosed  += (s, args) => this.Close();
+            menu.Show();
+            
+        }
     }
 }

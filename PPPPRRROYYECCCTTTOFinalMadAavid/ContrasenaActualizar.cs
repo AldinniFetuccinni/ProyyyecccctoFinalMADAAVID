@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace PPPPRRROYYECCCTTTOFinalMadAavid
 {
-    public partial class GenerarReporte : Form
+    public partial class ContrasenaActualizar : Form
     {
-        public GenerarReporte()
+        public ContrasenaActualizar()
         {
             InitializeComponent();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Form PPrin = new PantallaPrincipal();
-            PPrin.FormClosed += (s, args) => this.Close();
-            PPrin.Show();
         }
     }
 }

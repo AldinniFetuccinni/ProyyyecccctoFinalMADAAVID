@@ -220,7 +220,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.comboBox1);
             this.Name = "RegistrarEmpresa";
-            this.Text = "RegistrarEmpresa";
+            this.Text = "Registrar Empresa";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -30,7 +30,7 @@
         {
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.button1 = new System.Windows.Forms.Button();
+            this.BtnIngresar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -56,14 +56,15 @@
             this.radioButton2.Text = "Cassandra";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // BtnIngresar
             // 
-            this.button1.Location = new System.Drawing.Point(71, 186);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(115, 34);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Ingresar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.BtnIngresar.Location = new System.Drawing.Point(71, 186);
+            this.BtnIngresar.Name = "BtnIngresar";
+            this.BtnIngresar.Size = new System.Drawing.Size(115, 34);
+            this.BtnIngresar.TabIndex = 2;
+            this.BtnIngresar.Text = "Ingresar";
+            this.BtnIngresar.UseVisualStyleBackColor = true;
+            this.BtnIngresar.Click += new System.EventHandler(this.BtnIngresar_Click);
             // 
             // label1
             // 
@@ -81,11 +82,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(285, 260);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BtnIngresar);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Elige el sistema";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -95,7 +96,7 @@
 
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BtnIngresar;
         private System.Windows.Forms.Label label1;
     }
 }

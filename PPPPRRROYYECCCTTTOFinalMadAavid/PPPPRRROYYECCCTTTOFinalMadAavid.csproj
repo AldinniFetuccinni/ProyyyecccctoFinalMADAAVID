@@ -64,6 +64,30 @@
     <Compile Include="ActualizarPuestoEmpleado.Designer.cs">
       <DependentUpon>ActualizarPuestoEmpleado.cs</DependentUpon>
     </Compile>
+    <Compile Include="ContrasenaActualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContrasenaActualizar.Designer.cs">
+      <DependentUpon>ContrasenaActualizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContrasenaRegistrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContrasenaRegistrar.Designer.cs">
+      <DependentUpon>ContrasenaRegistrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContrasenaSolicitar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContrasenaSolicitar.Designer.cs">
+      <DependentUpon>ContrasenaSolicitar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmpleadoContrasena.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmpleadoContrasena.Designer.cs">
+      <DependentUpon>EmpleadoContrasena.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -152,6 +176,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ActualizarPuestoEmpleado.resx">
       <DependentUpon>ActualizarPuestoEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContrasenaActualizar.resx">
+      <DependentUpon>ContrasenaActualizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContrasenaRegistrar.resx">
+      <DependentUpon>ContrasenaRegistrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContrasenaSolicitar.resx">
+      <DependentUpon>ContrasenaSolicitar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmpleadoContrasena.resx">
+      <DependentUpon>EmpleadoContrasena.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
