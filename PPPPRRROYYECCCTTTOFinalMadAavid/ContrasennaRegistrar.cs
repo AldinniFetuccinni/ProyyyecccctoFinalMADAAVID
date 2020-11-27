@@ -10,27 +10,30 @@ using System.Windows.Forms;
 
 namespace PPPPRRROYYECCCTTTOFinalMadAavid
 {
-    public partial class RegistrarEmpleado : Form
+    public partial class ContrasennaRegistrar : Form
     {
-        public RegistrarEmpleado()
+        public ContrasennaRegistrar()
         {
             InitializeComponent();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            string hi;
+            hi = textBox1.Text;
+            MessageBox.Show(textBox1.Text, "Mensaje de prueba");
             this.Hide();
-            Form RRegis = new Registrar();
-            RRegis.FormClosed += (s, args) => this.Close();
-            RRegis.Show();
+            Form registrar = new Registrar();
+            registrar.FormClosed += (s, args) => this.Close();
+            registrar.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form CCEmp = new ContrasennaEmpleado();
-            CCEmp.FormClosed += (s, args) => this.Close();
-            CCEmp.Show();
+            Form PPrin = new PantallaPrincipal();
+            PPrin.FormClosed += (s, args) => this.Close();
+            PPrin.Show();
         }
     }
 }

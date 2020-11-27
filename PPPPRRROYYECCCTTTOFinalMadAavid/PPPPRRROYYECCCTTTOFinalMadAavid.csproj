@@ -82,6 +82,30 @@
     <Compile Include="ContrasenaSolicitar.Designer.cs">
       <DependentUpon>ContrasenaSolicitar.cs</DependentUpon>
     </Compile>
+    <Compile Include="ContrasennaActualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContrasennaActualizar.Designer.cs">
+      <DependentUpon>ContrasennaActualizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContrasennaEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContrasennaEmpleado.Designer.cs">
+      <DependentUpon>ContrasennaEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContrasennaRegistrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContrasennaRegistrar.Designer.cs">
+      <DependentUpon>ContrasennaRegistrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContrasennaSolicitar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContrasennaSolicitar.Designer.cs">
+      <DependentUpon>ContrasennaSolicitar.cs</DependentUpon>
+    </Compile>
     <Compile Include="EmpleadoContrasena.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -185,6 +209,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ContrasenaSolicitar.resx">
       <DependentUpon>ContrasenaSolicitar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContrasennaActualizar.resx">
+      <DependentUpon>ContrasennaActualizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContrasennaEmpleado.resx">
+      <DependentUpon>ContrasennaEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContrasennaRegistrar.resx">
+      <DependentUpon>ContrasennaRegistrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContrasennaSolicitar.resx">
+      <DependentUpon>ContrasennaSolicitar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EmpleadoContrasena.resx">
       <DependentUpon>EmpleadoContrasena.cs</DependentUpon>

@@ -25,25 +25,25 @@ namespace PPPPRRROYYECCCTTTOFinalMadAavid
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form registrar = new Registrar();
-            registrar.FormClosed += (s, args) => this.Close();
-            registrar.Show();
+            Form CCReg = new ContrasennaRegistrar();
+            CCReg.FormClosed += (s, args) => this.Close();
+            CCReg.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form solicitar = new Solicitar();
-            solicitar.FormClosed += (s, args) => this.Close();
-            solicitar.Show();
+            Form CCSol = new ContrasennaSolicitar();
+            CCSol.FormClosed += (s, args) => this.Close();
+            CCSol.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form actualizar = new Actualizar();
-            actualizar.FormClosed += (s, args) => this.Close();
-            actualizar.Show();
+            Form CCAct = new ContrasennaActualizar();
+            CCAct.FormClosed += (s, args) => this.Close();
+            CCAct.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
