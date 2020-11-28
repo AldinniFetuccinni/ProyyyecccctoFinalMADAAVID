@@ -34,6 +34,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -68,7 +69,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(79, 229);
+            this.button4.Location = new System.Drawing.Point(79, 270);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(106, 36);
             this.button4.TabIndex = 3;
@@ -95,11 +96,22 @@
             this.label2.Text = "Selecciona la opción deseada";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(79, 229);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(106, 36);
+            this.button5.TabIndex = 6;
+            this.button5.Text = "Editar";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // PantallaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(288, 337);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button4);
@@ -121,5 +133,6 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button5;
     }
 }

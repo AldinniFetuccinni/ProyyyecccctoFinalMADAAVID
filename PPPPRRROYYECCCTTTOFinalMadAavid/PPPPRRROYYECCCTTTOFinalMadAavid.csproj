@@ -88,6 +88,12 @@
     <Compile Include="ContrasennaActualizar.Designer.cs">
       <DependentUpon>ContrasennaActualizar.cs</DependentUpon>
     </Compile>
+    <Compile Include="ContrasennaEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContrasennaEditar.Designer.cs">
+      <DependentUpon>ContrasennaEditar.cs</DependentUpon>
+    </Compile>
     <Compile Include="ContrasennaEmpleado.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,6 +111,72 @@
     </Compile>
     <Compile Include="ContrasennaSolicitar.Designer.cs">
       <DependentUpon>ContrasennaSolicitar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editar.Designer.cs">
+      <DependentUpon>Editar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditarDepartamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarDepartamento.Designer.cs">
+      <DependentUpon>EditarDepartamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarEmpleado.Designer.cs">
+      <DependentUpon>EditarEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditarEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarEmpresa.Designer.cs">
+      <DependentUpon>EditarEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditarNomina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarNomina.Designer.cs">
+      <DependentUpon>EditarNomina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditarPuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarPuesto.Designer.cs">
+      <DependentUpon>EditarPuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditarSeleccionDepartamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarSeleccionDepartamento.Designer.cs">
+      <DependentUpon>EditarSeleccionDepartamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditarSeleccionEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarSeleccionEmpleado.Designer.cs">
+      <DependentUpon>EditarSeleccionEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditarSeleccionEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarSeleccionEmpresa.Designer.cs">
+      <DependentUpon>EditarSeleccionEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditarSeleccionNomina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarSeleccionNomina.Designer.cs">
+      <DependentUpon>EditarSeleccionNomina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditarSeleccionPuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarSeleccionPuesto.Designer.cs">
+      <DependentUpon>EditarSeleccionPuesto.cs</DependentUpon>
     </Compile>
     <Compile Include="EmpleadoContrasena.cs">
       <SubType>Form</SubType>
@@ -213,6 +285,9 @@
     <EmbeddedResource Include="ContrasennaActualizar.resx">
       <DependentUpon>ContrasennaActualizar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ContrasennaEditar.resx">
+      <DependentUpon>ContrasennaEditar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ContrasennaEmpleado.resx">
       <DependentUpon>ContrasennaEmpleado.cs</DependentUpon>
     </EmbeddedResource>
@@ -221,6 +296,39 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ContrasennaSolicitar.resx">
       <DependentUpon>ContrasennaSolicitar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editar.resx">
+      <DependentUpon>Editar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarDepartamento.resx">
+      <DependentUpon>EditarDepartamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarEmpleado.resx">
+      <DependentUpon>EditarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarEmpresa.resx">
+      <DependentUpon>EditarEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarNomina.resx">
+      <DependentUpon>EditarNomina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarPuesto.resx">
+      <DependentUpon>EditarPuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarSeleccionDepartamento.resx">
+      <DependentUpon>EditarSeleccionDepartamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarSeleccionEmpleado.resx">
+      <DependentUpon>EditarSeleccionEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarSeleccionEmpresa.resx">
+      <DependentUpon>EditarSeleccionEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarSeleccionNomina.resx">
+      <DependentUpon>EditarSeleccionNomina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarSeleccionPuesto.resx">
+      <DependentUpon>EditarSeleccionPuesto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EmpleadoContrasena.resx">
       <DependentUpon>EmpleadoContrasena.cs</DependentUpon>

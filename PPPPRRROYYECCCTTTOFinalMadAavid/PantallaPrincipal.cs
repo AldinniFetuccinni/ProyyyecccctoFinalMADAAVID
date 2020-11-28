@@ -53,5 +53,13 @@ namespace PPPPRRROYYECCCTTTOFinalMadAavid
             genReport.FormClosed += (s, args) => this.Close();
             genReport.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form CCEdi = new ContrasennaEditar();
+            CCEdi.FormClosed += (s, args) => this.Close();
+            CCEdi.Show();
+        }
     }
 }
