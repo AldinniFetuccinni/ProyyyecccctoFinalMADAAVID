@@ -24,5 +24,18 @@ namespace PPPPRRROYYECCCTTTOFinalMadAavid
             PPrin.FormClosed += (s, args) => this.Close();
             PPrin.Show();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
     }
 }
